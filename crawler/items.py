@@ -7,7 +7,7 @@ from scrapy.item import Item, Field
 
 class CrawlerItem(Item):
     # define the fields for your item here like:
-    # name = Field()
-	title = Field()
+    name = Field()
+    title = Field()
     link = Field()
     desc = Field()
